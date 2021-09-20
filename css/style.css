@@ -1181,6 +1181,9 @@ button:focus,
 .pull-top {
   margin-top: -100px;
 }
+.pull-top2 {
+  margin-top: -150px;
+}
 
 .shapes-container {
   position: absolute;
