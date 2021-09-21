@@ -59,6 +59,27 @@
       ]
     });
 
+    // -----------------------------
+    //  Benefits Slider
+    // -----------------------------
+    $('.benefits-slider').slick({
+      slidesToShow: 3,
+      infinite: true,
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 4500,
+      dots: true,
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+
 
     // -----------------------------
     //  Video Replace

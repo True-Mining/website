@@ -1022,6 +1022,31 @@ button:focus,
   border-radius: 100%;
 }
 
+@media (max-width: 768px) {
+  .feature .benefits {
+    text-align: center;
+  }
+}
+
+.feature .benefits p {
+  font-family: "Lora", serif;
+  margin-bottom: 10px;
+  font-style: italic;
+  color: #242424;
+}
+
+.feature .benefits ul.meta li {
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.feature .benefits ul.meta li img {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+
+
 @media (max-width: 480px) {
   .app-features .app-feature {
     margin-bottom: 30px;
@@ -1155,6 +1180,59 @@ button:focus,
 }
 
 .testimonial .testimonial-slider .owl-dots .owl-dot.active span {
+  background: #2e7eed;
+}
+
+/* -------------*/
+
+.benefits .benefits-slider .item {
+  padding-bottom: 10px;
+}
+
+.benefits .benefits-slider .item .block {
+  padding: 40px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.benefits .benefits-slider .item .block .image {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .benefits .benefits-slider .item .block .image {
+    flex-grow: 1;
+  }
+}
+
+.benefits .benefits-slider .item .block .image img {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+
+.benefits .benefits-slider .item .block p {
+  font-family: "Lora", serif;
+  font-style: italic;
+  color: #888888;
+}
+
+.benefits .benefits-slider .item .block cite {
+  font-style: normal;
+  font-size: 14px;
+  color: #161616;
+}
+
+.benefits .benefits-slider .owl-dots .owl-dot:hover span {
+  background: #2e7eed;
+}
+
+.benefits .benefits-slider .owl-dots .owl-dot.active span {
   background: #2e7eed;
 }
 

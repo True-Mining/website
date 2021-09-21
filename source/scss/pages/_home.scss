@@ -211,6 +211,32 @@
 			}
 		}
 	}
+
+	.benefits {
+		@include tablet {
+			text-align: center;
+		}
+
+		p {
+			font-family: $secondary-font;
+			margin-bottom: 10px;
+			font-style: italic;
+			color: #242424;
+		}
+
+		ul.meta {
+			li {
+				font-size: 12px;
+				margin-right: 10px;
+
+				img {
+					height: 40px;
+					width: 40px;
+					border-radius: 100%;
+				}
+			}
+		}
+	}
 }
 
 // App Features
@@ -364,6 +390,69 @@
 		}
 	}
 }
+
+.benefits {
+	.benefits-slider {
+		.item {
+			padding-bottom: 10px;
+
+			.block {
+				padding: 40px;
+				text-align: center;
+				margin: 10px;
+				border-radius: 5px;
+
+				.image {
+					margin-top: 30px;
+					margin-bottom: 5px;
+					width: 100%;
+					display: flex;
+					justify-content: center;
+
+					@include tablet {
+						flex-grow: 1;
+					}
+
+					img {
+						height: 40px;
+						width: 40px;
+						border-radius: 100%;
+					}
+				}
+
+				p {
+					font-family: $secondary-font;
+					font-style: italic;
+					color: #888888;
+				}
+
+				cite {
+					font-style: normal;
+					font-size: 14px;
+					color: #161616;
+				}
+			}
+		}
+
+		// Owl dot Active color overide
+		.owl-dots {
+			.owl-dot {
+				&:hover {
+					span {
+						background: $primary-color;
+					}
+				}
+
+				&.active {
+					span {
+						background: $primary-color;
+					}
+				}
+			}
+		}
+	}
+}
+
 
 /* homepage 3 */
 .gradient-banner{
