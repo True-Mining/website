@@ -6,7 +6,7 @@ Website para truemininjg.online. Obrigado Themefisher pela maravilhosa template
 Copyright &copy; 2021 Designed & Developed by [Themefisher](https://themefisher.com)
 Copyright &copy; 2021 [matheusbach](https://github.com/true-mining)
 
-**Code License:** Released under the [MIT](LICENSE.md) license.
+**Code License:** Released under the [MIT License](LICENSE.md).
 
 <!-- resources -->
 ## Resources
