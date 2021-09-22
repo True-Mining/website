@@ -1,4 +1,5 @@
 /*
+@preserve
 THEME: Small Apps | Bootstrap App Landing Template
 VERSION: 1.0.0
 AUTHOR: Themefisher
@@ -12,6 +13,7 @@ Get HUGO Version : https://themefisher.com/products/small-apps-hugo-app-landing-
 WEBSITE: https://themefisher.com
 TWITTER: https://twitter.com/themefisher
 FACEBOOK: https://www.facebook.com/themefisher
+@endpreserve
 */
 /*=== MEDIA QUERY ===*/
 @import url("https://fonts.googleapis.com/css?family=Lora:400,400i|Open+Sans:300,400,600,700,800");
@@ -148,6 +150,10 @@ a:focus,
 a:hover {
   color: #2e7eed;
   text-decoration: none;
+}
+
+.fg-lightgray {
+  color: #cccccc !important;
 }
 
 .bg-gray {
@@ -318,6 +324,20 @@ textarea.form-control.main {
 button:focus,
 .slick-slide:focus {
   outline: 0;
+}
+
+.increase-tap-size-v {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.increase-tap-size-h {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.increase-tap-size-margin {
+  margin: 4px;
 }
 
 .btn {
@@ -596,10 +616,6 @@ button:focus,
   margin-bottom: 20px;
 }
 
-.footer-main .block img #small-Apps {
-  fill: red;
-}
-
 .footer-main .block ul.social-icon li a {
   text-decoration: none;
   display: block;
@@ -684,9 +700,9 @@ button:focus,
   position: fixed;
   right: 20px;
   bottom: 50px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
   text-align: center;
   background: #2e7eed;
   color: #fff;
