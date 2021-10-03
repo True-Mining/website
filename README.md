@@ -1,5 +1,5 @@
 # True Mining Website
-Website para truemininjg.online. Obrigado Themefisher pela maravilhosa template
+Website para https://truemining.online. Obrigado Themefisher pela maravilhosa template
 
 <!-- licence -->
 ## License
